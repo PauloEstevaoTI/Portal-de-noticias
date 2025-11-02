@@ -6,7 +6,7 @@
 
 :root {
   --brand-color-light: #60a5fa;
-  --brand-colo-dark: #1d4ed8;
+  --brand-color-dark: #1d4ed8;
   --bg-color: #0f172a;
   --stroke-color: #1e293b;
   --text-color-primary: #f1f5f9;
@@ -40,4 +40,14 @@ h1,
 h2,
 h3 {
   font: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1280px;
+  padding-inline: 32px;
+  margin-inline: auto;
 }
