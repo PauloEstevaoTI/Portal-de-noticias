@@ -1,5 +1,9 @@
 main {
   margin-top: 40px;
+  gap: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
 }
 
 section {
