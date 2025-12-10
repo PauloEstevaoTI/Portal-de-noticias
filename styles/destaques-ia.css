@@ -9,11 +9,11 @@
     header {
       border-top: 1px solid var(--stroke-color);
       padding-block: 12px 24px;
+      font: var(--text-span);
+      display: flex;
+      justify-content: space-between;
 
       a {
-        display: flex;
-        justify-content: space-between;
-
         img {
           vertical-align: middle;
         }
@@ -45,6 +45,10 @@
             font: var(--h2);
             margin-top: 8px;
             margin-bottom: 4px;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            display: -webkit-box;
           }
 
           p {
@@ -101,11 +105,11 @@
         header {
           padding-block: 12px 24px;
           border-top: 1px solid var(--stroke-color);
+          font: var(--text-span);
+          display: flex;
+          justify-content: space-between;
 
           a {
-            display: flex;
-            justify-content: space-between;
-
             img {
               vertical-align: middle;
             }

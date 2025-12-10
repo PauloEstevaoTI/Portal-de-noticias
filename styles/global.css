@@ -42,6 +42,18 @@ h3 {
   font: inherit;
 }
 
+h1 {
+  font: var(--h1);
+}
+
+h2 {
+  font: var(--h2);
+}
+
+h3 {
+  font: var(--h3);
+}
+
 span {
   font: var(--text-span);
 }
