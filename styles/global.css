@@ -42,6 +42,10 @@ h3 {
   font: inherit;
 }
 
+span {
+  font: var(--text-span);
+}
+
 li {
   list-style: none;
 }
